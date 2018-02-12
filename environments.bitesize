@@ -1,7 +1,7 @@
 project: spring
 environments:
   - name: production
-    namespace: siva-dev
+    namespace: spring-dev
     deployment:
       method: rolling-upgrade
     services:
@@ -10,4 +10,3 @@ environments:
         port: 8080
         ssl: "false"
         replicas: 2
-
