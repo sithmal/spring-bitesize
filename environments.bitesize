@@ -1,0 +1,13 @@
+project: spring
+environments:
+  - name: production
+    namespace: siva-dev
+    deployment:
+      method: rolling-upgrade
+    services:
+      - name: spring-app
+        external_url: sivatest.dev-prsn.io
+        port: 8080
+        ssl: "false"
+        replicas: 2
+
