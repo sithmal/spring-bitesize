@@ -22,3 +22,5 @@ environments:
             value: admin-user
           - name: MONGO_DBPASS
             value: admin-pass
+      - type: mongo
+        name: mongodb
