@@ -13,5 +13,4 @@ environments:
       - name: mongo-provision
         version: "1.0.0"
         external_url: mongo-test.prsn.io
-        ssl: true
         port: 27017
