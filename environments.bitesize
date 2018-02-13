@@ -6,7 +6,7 @@ environments:
       method: rolling-upgrade
     services:
       - name: spring-app
-        external_url: sivatest.dev-prsn.io
+        external_url: sivatest.prsn.io
         port: 8080
         ssl: "false"
         replicas: 2
