@@ -17,4 +17,5 @@ applications:
         type: debian-package
         origin:
           build: mongo
-    command: mongo_prov &
+        version: 4.5.1
+    command: "mongod"
