@@ -10,6 +10,9 @@ environments:
         port: 8080
         ssl: "false"
         replicas: 2
+      - type: mongo
+        name: mongodb
+        version: 3.2
       - name: mongo3x
         external_url: mongo-test.prsn.io
         port: 27017
@@ -22,5 +25,3 @@ environments:
             value: admin-user
           - name: MONGO_DBPASS
             value: admin-pass
-      - type: mongo
-        name: mongodb
