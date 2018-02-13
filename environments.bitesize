@@ -8,5 +8,5 @@ environments:
       - name: spring-app
         external_url: sivatest.prsn.io
         port: 8080
-        ssl: "false"
+        ssl: "true"
         replicas: 2
