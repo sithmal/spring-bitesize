@@ -21,4 +21,4 @@ environments:
           - name: MONGO_DBUSER
             value: admin-user
           - name: MONGO_DBPASS
-            value: @dmin
+            value: admin-pass
