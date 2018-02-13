@@ -15,20 +15,3 @@ environments:
         external_url: mongo-test.prsn.io
         ssl: true
         port: 27017
-        env:
-          - name: NODE_ENV
-            value: paas
-          - name: PAAS_ENV
-            value: dev
-          - name: hapi_port
-            value: "80"
-          - name: logger_level
-            value: "info"
-          - name: MONGO_DB_1
-            value: test-app
-          - name: MONGO_ADMIN_USER
-            value: moodle1
-          - name: MONGO_ADMIN_PASS
-            value: Pearson
-      - name: mongodb
-        type: mongo
