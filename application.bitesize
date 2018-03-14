@@ -10,12 +10,3 @@ applications:
           build: spring-app
         version: 1.0
     command: "java -jar /app/SpringBoot-1.0.0.jar"
-  - name: mongo3x
-    runtime: 'ubuntu-mongo3x:1.0'
-    dependencies:
-      - name: mongo3x
-        type: debian-package
-        origin:
-          build: mongo3x
-        version: 1.0.4
-    command: mongo_prov &
