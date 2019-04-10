@@ -1,4 +1,4 @@
-project: spring
+project: phoenix
 environments:
   - name: dev
     namespace: spring-dev
