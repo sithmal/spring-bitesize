@@ -1,4 +1,4 @@
-project: spring
+project: phoenix
 components:
   - name: spring-app
     os: linux
